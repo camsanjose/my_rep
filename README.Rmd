@@ -1,0 +1,12 @@
+---
+title: "README"
+author: "Camila San Jose"
+date: "4/2/2020"
+output: html_document
+---
+## Assignment
+
+For this assignment, we did an interactive pie chart. 
+
+To do this, we first accessed the page: https://www.d3-graph-gallery.com/graph/pie_basic.html which has the html code to do a simple pie chart. However, we needed to make this interactive. To do this, we first changed the values of the arrays to be in the form: value={"a":10,"b":24,"c":32,"d":5,"e":9}, Then, we selected the svg and added .html("") at the end, made the variable data with JSON.parse, changed the color schemes, made a function for the pie chart and called the function at the end. 
+
